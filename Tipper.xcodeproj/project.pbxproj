@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D0DC74820E2DB1B00C56600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0DC74720E2DB1B00C56600 /* AppDelegate.m */; };
+		7D0DC74B20E2DB1B00C56600 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0DC74A20E2DB1B00C56600 /* ViewController.m */; };
+		7D0DC74E20E2DB1B00C56600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0DC74C20E2DB1B00C56600 /* Main.storyboard */; };
+		7D0DC75020E2DB1C00C56600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0DC74F20E2DB1C00C56600 /* Assets.xcassets */; };
+		7D0DC75320E2DB1C00C56600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0DC75120E2DB1C00C56600 /* LaunchScreen.storyboard */; };
+		7D0DC75620E2DB1C00C56600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0DC75520E2DB1C00C56600 /* main.m */; };
+		7D0DC76020E2DB1C00C56600 /* TipperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0DC75F20E2DB1C00C56600 /* TipperTests.m */; };
+		7D0DC76B20E2DB1C00C56600 /* TipperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0DC76A20E2DB1C00C56600 /* TipperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D0DC75C20E2DB1C00C56600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D0DC73B20E2DB1A00C56600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D0DC74220E2DB1B00C56600;
+			remoteInfo = Tipper;
+		};
+		7D0DC76720E2DB1C00C56600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D0DC73B20E2DB1A00C56600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D0DC74220E2DB1B00C56600;
+			remoteInfo = Tipper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D0DC74320E2DB1B00C56600 /* Tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0DC74620E2DB1B00C56600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D0DC74720E2DB1B00C56600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D0DC74920E2DB1B00C56600 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D0DC74A20E2DB1B00C56600 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D0DC74D20E2DB1B00C56600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D0DC74F20E2DB1C00C56600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D0DC75220E2DB1C00C56600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D0DC75420E2DB1C00C56600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0DC75520E2DB1C00C56600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D0DC75B20E2DB1C00C56600 /* TipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0DC75F20E2DB1C00C56600 /* TipperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipperTests.m; sourceTree = "<group>"; };
+		7D0DC76120E2DB1C00C56600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0DC76620E2DB1C00C56600 /* TipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0DC76A20E2DB1C00C56600 /* TipperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipperUITests.m; sourceTree = "<group>"; };
+		7D0DC76C20E2DB1C00C56600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D0DC74020E2DB1B00C56600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0DC75820E2DB1C00C56600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0DC76320E2DB1C00C56600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D0DC73A20E2DB1A00C56600 = {
+			isa = PBXGroup;
+			children = (
+				7D0DC74520E2DB1B00C56600 /* Tipper */,
+				7D0DC75E20E2DB1C00C56600 /* TipperTests */,
+				7D0DC76920E2DB1C00C56600 /* TipperUITests */,
+				7D0DC74420E2DB1B00C56600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D0DC74420E2DB1B00C56600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D0DC74320E2DB1B00C56600 /* Tipper.app */,
+				7D0DC75B20E2DB1C00C56600 /* TipperTests.xctest */,
+				7D0DC76620E2DB1C00C56600 /* TipperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D0DC74520E2DB1B00C56600 /* Tipper */ = {
+			isa = PBXGroup;
+			children = (
+				7D0DC74620E2DB1B00C56600 /* AppDelegate.h */,
+				7D0DC74720E2DB1B00C56600 /* AppDelegate.m */,
+				7D0DC74920E2DB1B00C56600 /* ViewController.h */,
+				7D0DC74A20E2DB1B00C56600 /* ViewController.m */,
+				7D0DC74C20E2DB1B00C56600 /* Main.storyboard */,
+				7D0DC74F20E2DB1C00C56600 /* Assets.xcassets */,
+				7D0DC75120E2DB1C00C56600 /* LaunchScreen.storyboard */,
+				7D0DC75420E2DB1C00C56600 /* Info.plist */,
+				7D0DC75520E2DB1C00C56600 /* main.m */,
+			);
+			path = Tipper;
+			sourceTree = "<group>";
+		};
+		7D0DC75E20E2DB1C00C56600 /* TipperTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D0DC75F20E2DB1C00C56600 /* TipperTests.m */,
+				7D0DC76120E2DB1C00C56600 /* Info.plist */,
+			);
+			path = TipperTests;
+			sourceTree = "<group>";
+		};
+		7D0DC76920E2DB1C00C56600 /* TipperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D0DC76A20E2DB1C00C56600 /* TipperUITests.m */,
+				7D0DC76C20E2DB1C00C56600 /* Info.plist */,
+			);
+			path = TipperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D0DC74220E2DB1B00C56600 /* Tipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0DC76F20E2DB1C00C56600 /* Build configuration list for PBXNativeTarget "Tipper" */;
+			buildPhases = (
+				7D0DC73F20E2DB1B00C56600 /* Sources */,
+				7D0DC74020E2DB1B00C56600 /* Frameworks */,
+				7D0DC74120E2DB1B00C56600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tipper;
+			productName = Tipper;
+			productReference = 7D0DC74320E2DB1B00C56600 /* Tipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D0DC75A20E2DB1C00C56600 /* TipperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0DC77220E2DB1C00C56600 /* Build configuration list for PBXNativeTarget "TipperTests" */;
+			buildPhases = (
+				7D0DC75720E2DB1C00C56600 /* Sources */,
+				7D0DC75820E2DB1C00C56600 /* Frameworks */,
+				7D0DC75920E2DB1C00C56600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D0DC75D20E2DB1C00C56600 /* PBXTargetDependency */,
+			);
+			name = TipperTests;
+			productName = TipperTests;
+			productReference = 7D0DC75B20E2DB1C00C56600 /* TipperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D0DC76520E2DB1C00C56600 /* TipperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0DC77520E2DB1C00C56600 /* Build configuration list for PBXNativeTarget "TipperUITests" */;
+			buildPhases = (
+				7D0DC76220E2DB1C00C56600 /* Sources */,
+				7D0DC76320E2DB1C00C56600 /* Frameworks */,
+				7D0DC76420E2DB1C00C56600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D0DC76820E2DB1C00C56600 /* PBXTargetDependency */,
+			);
+			name = TipperUITests;
+			productName = TipperUITests;
+			productReference = 7D0DC76620E2DB1C00C56600 /* TipperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D0DC73B20E2DB1A00C56600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Tarini;
+				TargetAttributes = {
+					7D0DC74220E2DB1B00C56600 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7D0DC75A20E2DB1C00C56600 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7D0DC74220E2DB1B00C56600;
+					};
+					7D0DC76520E2DB1C00C56600 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7D0DC74220E2DB1B00C56600;
+					};
+				};
+			};
+			buildConfigurationList = 7D0DC73E20E2DB1A00C56600 /* Build configuration list for PBXProject "Tipper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D0DC73A20E2DB1A00C56600;
+			productRefGroup = 7D0DC74420E2DB1B00C56600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D0DC74220E2DB1B00C56600 /* Tipper */,
+				7D0DC75A20E2DB1C00C56600 /* TipperTests */,
+				7D0DC76520E2DB1C00C56600 /* TipperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D0DC74120E2DB1B00C56600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0DC75320E2DB1C00C56600 /* LaunchScreen.storyboard in Resources */,
+				7D0DC75020E2DB1C00C56600 /* Assets.xcassets in Resources */,
+				7D0DC74E20E2DB1B00C56600 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0DC75920E2DB1C00C56600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0DC76420E2DB1C00C56600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D0DC73F20E2DB1B00C56600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0DC74B20E2DB1B00C56600 /* ViewController.m in Sources */,
+				7D0DC75620E2DB1C00C56600 /* main.m in Sources */,
+				7D0DC74820E2DB1B00C56600 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0DC75720E2DB1C00C56600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0DC76020E2DB1C00C56600 /* TipperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0DC76220E2DB1C00C56600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0DC76B20E2DB1C00C56600 /* TipperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D0DC75D20E2DB1C00C56600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D0DC74220E2DB1B00C56600 /* Tipper */;
+			targetProxy = 7D0DC75C20E2DB1C00C56600 /* PBXContainerItemProxy */;
+		};
+		7D0DC76820E2DB1C00C56600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D0DC74220E2DB1B00C56600 /* Tipper */;
+			targetProxy = 7D0DC76720E2DB1C00C56600 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D0DC74C20E2DB1B00C56600 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D0DC74D20E2DB1B00C56600 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D0DC75120E2DB1C00C56600 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D0DC75220E2DB1C00C56600 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D0DC76D20E2DB1C00C56600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D0DC76E20E2DB1C00C56600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D0DC77020E2DB1C00C56600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tipper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tarini.Tipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D0DC77120E2DB1C00C56600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tipper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tarini.Tipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D0DC77320E2DB1C00C56600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tarini.TipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipper.app/Tipper";
+			};
+			name = Debug;
+		};
+		7D0DC77420E2DB1C00C56600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tarini.TipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipper.app/Tipper";
+			};
+			name = Release;
+		};
+		7D0DC77620E2DB1C00C56600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tarini.TipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tipper;
+			};
+			name = Debug;
+		};
+		7D0DC77720E2DB1C00C56600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tarini.TipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tipper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D0DC73E20E2DB1A00C56600 /* Build configuration list for PBXProject "Tipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0DC76D20E2DB1C00C56600 /* Debug */,
+				7D0DC76E20E2DB1C00C56600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0DC76F20E2DB1C00C56600 /* Build configuration list for PBXNativeTarget "Tipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0DC77020E2DB1C00C56600 /* Debug */,
+				7D0DC77120E2DB1C00C56600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0DC77220E2DB1C00C56600 /* Build configuration list for PBXNativeTarget "TipperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0DC77320E2DB1C00C56600 /* Debug */,
+				7D0DC77420E2DB1C00C56600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0DC77520E2DB1C00C56600 /* Build configuration list for PBXNativeTarget "TipperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0DC77620E2DB1C00C56600 /* Debug */,
+				7D0DC77720E2DB1C00C56600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D0DC73B20E2DB1A00C56600 /* Project object */;
+}
